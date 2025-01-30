@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af0209dbc7357504c909e8e9c830d97c, type: 3}
+  m_Name: MoveConfig
+  m_EditorClassIdentifier: 
+  PlayerMoveData:
+    MoveSpeed: 10
+    RotationSpeed: 30
+    RotationMultiplier: 10
+    GroundLayer:
+      serializedVersion: 2
+      m_Bits: 128
+    GroundCheckDistance: 1
+  BotMoveData:
+    MoveSpeed: 5
+    RotationSpeed: 35
+    RotationMultiplier: 10
+    GroundLayer:
+      serializedVersion: 2
+      m_Bits: 128
+    GroundCheckDistance: 1
+    RotationAngle: 45
+    RotationDelay: 3
+    RotationTime: 2
